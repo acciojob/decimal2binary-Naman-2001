@@ -22,4 +22,4 @@ function decimalToBinary(num){
     return binaryStr.split("").reverse().join("")
 }
 
-module.exports = decimalToBinary;
+window.decimalToBinary = decimalToBinary;
